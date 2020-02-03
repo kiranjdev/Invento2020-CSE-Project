@@ -1,1 +1,1 @@
-Student home
+Student dashboard
