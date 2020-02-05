@@ -39,12 +39,6 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
     <div class="row">
       <div class="col-md-8">
         <p class="m-0 text-secondary">:D</p></div>
-      <div class="col-md-4 footico">
-        <p class="m-0 text-secondary">
-            <a href="https://facebook.com/UrsaMentor" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com/UrsaMentor" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://linkedin.com/company/UrsaMentor" class="fa fa-linkedin" target="_blank"></a>
-        </p></div>
     </div>
   </div>
 </footer>
