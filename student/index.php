@@ -13,10 +13,15 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
     <title>Dashboard | Students</title>
   </head>
   <body>
-    <div class="container py-4">
-      <div class="row py-4">
-        <div class="col hello"><h3>Hello, $user!</h3></div>
+    <div class="headernav">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 title"><h5>Lab</h5></div>
+          <div class="col-9 hello">Welcome, $user</div>
+        </div>
       </div>
+    </div>
+    <div class="container py-4">
       <div class="row py-4">
         <div class="col-3 sidenav pr-5">
           <a href="" class="text-decoration-none navbutton"><div>Dashboard</div></a>
@@ -28,20 +33,13 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
             <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab</div></a></div>
           </div>
           <div class="row prevlabslink py-4">
-            <a href="">View previous labs</a>
+            <div class="col">
+              <a href="">Past Labs</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-    <footer class="py-3 customfooter">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <p class="m-0 text-secondary">:D</p></div>
-    </div>
-  </div>
-</footer>
 
   </body>
 </html>

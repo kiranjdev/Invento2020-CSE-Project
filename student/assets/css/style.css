@@ -1,8 +1,10 @@
-
+  body{
+    background-color: #E7EFF3;
+  }
   .navbutton div{
     padding:15px;
     border-radius: 50px;
-    background-color: #000;
+    background-color: #028090;
     width:100%;
     padding:15px;
     padding-left: 25px;
@@ -12,7 +14,7 @@
     margin-bottom: 15px;
   }
   .navbutton div:hover{
-    background-color: #121212;
+    background-color: #0291a3;
   }
   .navlink{
     width:100%;
@@ -21,8 +23,11 @@
     font-weight: 800;
     color:#000;
   }
+  .title h5{
+    padding-left: 25px;
+  }
   .hello{
-    padding-left: 2.4rem;
+    text-align: right;
   }
   .sidenav{
     border-right: 1px solid grey;
@@ -39,8 +44,8 @@
     padding-left: 25px;
     font-size: 20px;
     font-weight: 800;
-    background-color: #000;
-    color:#fff;
+    background-color: #fff;
+    color:#000;
     margin-bottom: 15px;
     box-shadow:
       0 2.8px 2.2px rgba(0, 0, 0, 0.02),
@@ -51,14 +56,21 @@
       0 100px 80px rgba(0, 0, 0, 0.07);
     }
   .labbutton div:hover{
-    background-color: #121212;
-    color:#fff;
+    box-shadow: 0 0 0.5pt 0.5pt #028090,
+    0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+    color:#000;
   }
-  .customfooter{
-    background-color: #000;
-    position:fixed;
-    bottom: 0;
-    width: 100%;
+  .headernav{
+    background-color: #21252B;
+    color:#fff;
+    height:3.6em;
+    padding-top: 1em;
   }
   .prevlabslink{
     float:right;
@@ -66,6 +78,6 @@
   .prevlabslink a{
     font-size: 20px;
     font-weight: 800;
-    color:#000;
+    color:#028090;
     text-decoration: underline;
   }
