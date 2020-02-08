@@ -24,11 +24,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
         </div>
         <div class="col customcontent">
           <div class="row">
-            <div class="col"><a href="" class="text-decoration-none labbutton"><div>Network Programming Lab</div></a></div>
-            <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab</div></a></div>
+            <div class="col"><a href="" class="text-decoration-none labbutton"><div>Network Programming Lab<p>S2</p></div></a></div>
+            <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab<p>S4</p></div></a></div>
           </div>
-          <div class="row prevlabslink py-4">
-            <a href="">View previous labs</a>
+          <div class="row">
+            <div class="col"><a href="" class="text-decoration-none labbutton"><div>Network Programming Lab<p>S6</p></div></a></div>
+            <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab<p>S8</p></div></a></div>
+          </div>
+          <div class="row py-4">
+            <div class="col newlablink ">
+            <a href="">+New lab</a>
+            </div>
+            <div class="col prevlabslink ">
+            <a href="">View past labs</a>
+            </div>
           </div>
         </div>
       </div>
