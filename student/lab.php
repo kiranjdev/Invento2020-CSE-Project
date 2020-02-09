@@ -8,6 +8,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/student/assets/css/style.css">
     <title>Dashboard | Students</title>
@@ -34,15 +35,21 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
           <div class="row py-4">
               <div class="col sub-page-title">
                 <h5>Pending Experiments</h5>
-                <a href="#" class="pending-exp">5. Implementation of 2 pass assembler</a><br>
-                <a href="#" class="pending-exp">5. Implementation of 2 pass assembler</a>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-danger lst">1. Implementation of two pass assembler</a>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-danger lst">2. Implementation of readers writer problem</a>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-danger lst">3. Implementation of bankers algorithm</a>
+               </div>
               </div>
           </div>
           <div class="row py-4">
               <div class="col sub-page-title">
                 <h5>Completed Experiments</h5>
-                <a href="#" class="completed-exp">5. Implementation of 2 pass assembler</a><br>
-                <a href="#" class="completed-exp">5. Implementation of 2 pass assembler</a>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-success lst">1. Implimentation of different paging techniques</a>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-success lst">2. Simulate disk scheduling algortithms (FCFS,SCAN,C-SCAN)</a>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-success lst">3. Simulate working of dining-philosopher's problem</a>
+                </div>
               </div>
           </div>
         </div>

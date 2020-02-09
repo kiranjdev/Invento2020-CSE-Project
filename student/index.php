@@ -8,6 +8,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/student/assets/css/style.css">
     <title>Dashboard | Students</title>
@@ -33,8 +34,8 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
             <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab</div></a></div>
           </div>
           <div class="row py-4">
-            <div class="col">
-              <a class="prevlabslink" href="">Past Labs</a>
+            <div class="col text-right">
+              <button type="button" class="btn btn-outline-dark">View Past Labs </button>
             </div>
           </div>
         </div>
