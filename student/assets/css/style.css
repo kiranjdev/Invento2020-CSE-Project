@@ -1,7 +1,48 @@
   body{
-    background-color: #F2F2F2;
+    background-color: #F1F4F6;
     font-family: 'Poppins', sans-serif;
   }
+  .maincontent{
+    min-height: calc(100vh - 106px);
+}
+  .myfooter {
+    height: 50px;
+    background-color: #343A40;
+    color:#fff;
+    line-height: 50px;
+}
+  .customnav{
+    background-color: #343A40;
+    color:#fff;
+  }
+
+  /* Desktop */
+  @media (min-width: 992px)
+  {
+    .navbar-brand{
+      padding-left: 25px;
+    }
+    .phone_menu{
+      display: none;
+    }
+    .customcontent{
+      padding-left: 5rem;
+    }
+    .myfooter {
+      padding-left: 25px;
+  }
+  }
+
+  /* Phone */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .desktop_menu{
+      display: none;
+    }
+    .sidenav{
+      display:none;
+    }
+  }
+
   .navbutton div{
     padding:15px;
     border-radius: 50px;
@@ -9,7 +50,7 @@
     width:100%;
     padding:15px;
     padding-left: 25px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     color:white;
     margin-bottom: 15px;
@@ -21,7 +62,7 @@
   .navlink{
     width:100%;
     padding-left: 25px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     color:#343A40;
   }
@@ -33,9 +74,6 @@
   }
   .sidenav{
     border-right: 1px solid grey;
-  }
-  .customcontent{
-    padding-left: 5rem;
   }
   .labbutton div{
     padding:15px;
@@ -67,17 +105,11 @@
       0 100px 80px rgba(0, 0, 0, 0.1);
     transition: 0.1s;
   }
-  .headernav{
-    background-color: #343A40;
-    color:#fff;
-    height:3.6em;
-    padding-top: 1em;
-  }
   .page-title h3{
     font-weight: 800;
   }
   .sub-page-title h5{
-    font-weight: 800;
+    font-weight: 400;
   }
   .pending-exp{
     color:#FF4606;
@@ -95,4 +127,10 @@
     font-weight: 800;
     color:#21252B;
     text-decoration: underline;
+  }
+
+  .btn {
+    padding: .5rem 1rem;
+    font-size: 14px;
+    border-radius: 50px;
   }
