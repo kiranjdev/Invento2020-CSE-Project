@@ -32,9 +32,9 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
             <div class="col"><a href="" class="text-decoration-none labbutton"><div>Network Programming Lab</div></a></div>
             <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab</div></a></div>
           </div>
-          <div class="row prevlabslink py-4">
+          <div class="row py-4">
             <div class="col">
-              <a href="">Past Labs</a>
+              <a class="prevlabslink" href="">Past Labs</a>
             </div>
           </div>
         </div>
