@@ -5,6 +5,13 @@
   .maincontent{
     min-height: calc(100vh - 106px);
 }
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff;
+    opacity: 1;
+}
+.outputimg{
+  width: 100%;
+}
   .myfooter {
     height: 50px;
     background-color: #343A40;
