@@ -10,6 +10,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/student/assets/css/style.css">
     <title>View Experiment</title>
   </head>
@@ -24,7 +25,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <div class="navbar-nav ml-auto desktop_menu">
-          <a class="nav-item nav-link" href=""><b>Profile</b></a>
+          <a class="nav-item nav-link" href=""><i class="material-icons">account_circle</i></a>
         </div>
         <div class="navbar-nav ml-auto phone_menu">
           <a class="nav-item nav-link" href=""><b>Dashboard</b></a>
@@ -43,7 +44,12 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
         </div>
         <div class="col customcontent">
           <div class="row mb-4">
-              <div class="col page-title"><h5>Experiment 5</h5><h3>Implementation of Two Pass Assembler in C</h3></div>
+              <div class="col page-title">
+                <a href="" class="btn btn-primary btn-circle"><i class="material-icons">edit</i></a>
+                <h5>Experiment 5</h5>
+                <h3>Implementation of Two Pass Assembler in C</h3>
+
+              </div>
           </div>
           <div class="row py-4">
               <div class="col sub-page-title">
