@@ -11,7 +11,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/student/assets/css/style.css">
-    <title>Dashboard | Students</title>
+    <title>Lab</title>
   </head>
   <body>
     <nav class="navbar navbar-dark navbar-expand-lg customnav">
@@ -35,7 +35,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
     </div>
   </nav>
 
-    <div class="container py-4">
+    <div class="container py-4  maincontent">
       <div class="row py-4">
         <div class="col-3 sidenav pr-5">
           <a href="" class="text-decoration-none navbutton"><div>Dashboard</div></a>
