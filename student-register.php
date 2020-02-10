@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Login</title>
+    <title>Student Register</title>
   </head>
   <body>
   <!--- <div class="alert alert-warning logauth">The password you entered was not valid. / No account found with that username.</div> --->
@@ -16,22 +16,29 @@
 			<div class="wrap-login100">
 				<form class="login100-form validate-form">
 					<span class="login100-form-title p-b-26">
-						Welcome
+						Register
 					</span><br><br>
 
 					<div class="wrap-input100 validate-input">
 						<input class="input100" type="text" id="username" name="username" placeholder="Username" required>
 					</div>
 
-					<div class="wrap-input100 validate-input">
-						<input class="input100" type="password" id="password" name="pass" placeholder="Password" required>
+          <div class="wrap-input100 validate-input">
+						<input class="input100" type="email" id="email" name="email" placeholder="Email" required>
 					</div>
 
-					<button class="login100-form-btn" id="login" name="login" type="submit">Login</button>
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="password" id="password" name="password" placeholder="Password" required>
+					</div>
+
+          <div class="wrap-input100 validate-input">
+						<input class="input100" type="password" id="password1" name="password1" placeholder="Password" required>
+					</div>
+
+					<button class="login100-form-btn" id="register" name="register" type="submit">Register</button>
 
 					<div class="text-center newreg">
-						<a href="">New Student?</a>
-            <a href="">New Teacher?</a>
+						<a href="">Login</a>
 					</div>
 				</form>
 			</div>
