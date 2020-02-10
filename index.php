@@ -10,7 +10,8 @@
   </head>
   <body>
   <!--- <div class="alert alert-warning logauth">The password you entered was not valid. / No account found with that username.</div> --->
-	<div class="limiter">
+  <!--- <div class="alert alert-success logauth">Your account has been successfully verified.</div> --->
+  <div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form">
