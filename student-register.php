@@ -32,7 +32,7 @@
 					</div>
 
           <div class="wrap-input100 validate-input">
-						<input class="input100" type="password" id="password1" name="password1" placeholder="Password" required>
+						<input class="input100" type="password" id="password1" name="password1" placeholder="Confirm Password" required>
 					</div>
 
 					<button class="login100-form-btn" id="register" name="register" type="submit">Register</button>
