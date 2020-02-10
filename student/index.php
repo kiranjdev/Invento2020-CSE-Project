@@ -49,7 +49,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
           </div>
           <div class="row py-4">
             <div class="col text-right">
-              <button type="button" class="btn btn-outline-dark">View Past Labs</button>
+              <a href="" type="button" class="btn btn-outline-dark">View Past Labs</a>
             </div>
           </div>
         </div>
